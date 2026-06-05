@@ -42,12 +42,12 @@ dp = Dispatcher()
 # MENU & COMMANDS
 # =========================
 
-async def set_main_menu(bot: Bot):
-    commands = [
-        BotCommand(command="start", description="Khởi động bot"),
-        BotCommand(command="webapp", description="Mở ứng dụng Mini App")
-    ]
-    await bot.set_my_commands(commands)
+# async def set_main_menu(bot: Bot):
+#     commands = [
+#         BotCommand(command="start", description="Khởi động bot"),
+#         BotCommand(command="webapp", description="Mở ứng dụng Mini App")
+#     ]
+#     await bot.set_my_commands(commands)
 
 # =========================
 # HANDLERS
