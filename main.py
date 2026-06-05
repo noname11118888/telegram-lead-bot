@@ -113,7 +113,7 @@ async def handle_contact(message: types.Message):
 # =========================
 
 async def on_startup(bot: Bot):
-    await set_main_menu(bot) # Cài đặt menu khi khởi động
+    # await set_main_menu(bot) # Cài đặt menu khi khởi động
     if WEBHOOK_URL:
         await bot.set_webhook(url=WEBHOOK_URL, drop_pending_updates=False)
         logging.info(f"Webhook set: {WEBHOOK_URL}")
